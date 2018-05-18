@@ -48,3 +48,12 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
 }
+
+nav {
+  background: firebrick;
+  padding: .75rem 0;
+}
+
+nav ul {
+  justify-content: space-between;
+}
