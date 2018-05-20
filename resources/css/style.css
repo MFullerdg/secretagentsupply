@@ -109,3 +109,25 @@ footer {
   margin-top: 4rem;
   background: black;
 }
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  
+}
