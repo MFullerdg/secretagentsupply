@@ -10,6 +10,8 @@ header {
 
 header .container {
   padding: .66rem 0 .66rem .5rem;
+  display: flex;
+  align-items: center;
 }
 
 header img {
@@ -19,8 +21,6 @@ header img {
 .container {
   width: 960px;
   margin: auto;
-  display: flex;
-  align-items: center;
 }
 
 .main {
@@ -55,5 +55,36 @@ nav {
 }
 
 nav ul {
+  display: flex;
   justify-content: space-between;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product {
+  width: 30%
+}
+
+.product-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.item {
+    background: black;
+    padding: .5rem;
+    display: block;
+    text-align: center;
 }
